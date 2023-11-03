@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){  
+        $("#hide").click(function(){  
+            $("p").hide();  
+        });
+
+        $("#show").click(function(){
+            $("p").show();
+        }) 
+});  
+    </script>
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .qu{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        ol{
+            padding: 10px;
+        }
+        .active{
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="w3-container">
+
+        <h2>Jquery MCQ Questions</h2>
+        <h4>Answere any<strong> 5 Questions</strong>Given below out of 10</h4>
+        
+        <div class="w3-bar w3-black">
+          <a href="#" class="w3-bar-item w3-button">Home</a>
+          <a href="#" class="w3-bar-item w3-button">About</a>
+          <a href="#" class="w3-bar-item w3-button w3-right">Back</a>
+        </div>
+        
+        </div>
+
+        <div class="w3-container">
+            
+            <ol>
+                <div class="qu active">
+                <li> jQuery is a ______.</li>
+                <ol type="a"> 
+                    <li>JavaScript Library</li>
+                    <li>JSON Library</li>
+                    <li>Java Library</li>
+                    <li>JSON and CSS Library</li>
+                </ol>
+                
+                <p>JavaScript Library</p>
+                <button id="show">Show</button>
+                <button id="hide">Hide</button>
+                </div>
+
+
+                <div class="qu">
+                <li>To work with jQuery, you should have the basic knowledge of these topics?</li>
+                <ol type="a"> 
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>All of the above</li>
+                </ol>
+                <p>All of the above</p>
+                <button id="show">Show</button>
+                <button id="hide">Hide</button>
+            </div>
+
+
+            <div class="qu">
+                <li>Who developed jQuery?</li>
+                <ol type="a"> 
+                    <li>John Richard</li>
+                    <li>John Resig</li>
+                    <li>John Carter</li>
+                    <li>John Alexander</li>
+                </ol>
+                <p>John Resig</p>
+                <button id="show">Show</button>
+                <button id="hide">Hide</button>
+            </div>
+
+            <div class="qu">
+                <li> In which year jQuery was initial released?</li>
+                <ol type="a"> 
+                    <li>2004</li>
+                    <li>2005</li>
+                    <li>2006</li>
+                    <li>2007</li>
+                </ol>
+                <p>2006</p>
+                <button id="show">Show</button>
+                <button id="hide">Hide</button>
+            </div>
+
+
+                <div class="qu">
+                <li> Is jQuery case-sensitive?</li>
+                <ol type="a"> 
+                    <li>YES</li>
+                    <li>NO</li>
+                </ol>
+                <p>YES</p>
+                <button id="show">Show</button>
+                <button id="hide">Hide</button>
+            </div>
+            </ol>
+        </div>
+</body>
+</html>
